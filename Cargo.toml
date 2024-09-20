@@ -1,0 +1,28 @@
+[package]
+name = "sirius"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.89"
+arrow = "53.0.0"
+arrow-json = "53.0.0"
+chrono = { version = "0.4.38", features = ["serde"] }
+ciborium = "0.2.2"
+console_error_panic_hook = "0.1.7"
+humantime = "2.1.0"
+js-sys = "0.3.70"
+leptos = { version = "0.6.15", features = ["csr"] }
+leptos-use = "0.13.5"
+leptos_router = { version = "0.6.15", features = ["csr"] }
+parquet = "53.0.0"
+rand = "0.8.5"
+reqwest = { version = "0.12.7", features = ["json"] }
+serde = { version = "1.0.210", features = ["derive"] }
+serde-wasm-bindgen = "0.6.5"
+serde_json = "1.0.128"
+tracing = "0.1.40"
+uuid = { version = "1.10.0", features = ["serde", "v4"] }
+wasm-bindgen = { version = "0.2.93", features = ["serde-serialize"] }
+wasm-tracing = "0.2.1"
+web-sys = { version = "0.3.70", features = ["CanvasRenderingContext2d", "HtmlCanvasElement", "DomRect", "Element"] }
